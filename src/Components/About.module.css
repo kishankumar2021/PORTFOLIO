@@ -1,0 +1,8 @@
+.pic{
+    width: 25px;
+    height: 70%;
+    border: 5px solid rgba(194, 238, 228, 0.596);
+    border-radius: 165px;
+    background-color: rgba(227, 238, 231, 0.671);
+    margin-left: -5%;
+}
