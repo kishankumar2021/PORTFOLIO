@@ -99,9 +99,10 @@ const Menu = styled.div`
     }
 `
 const Projects = styled.div`
-@media (max-width: 500px) {
+@media (max-width: 300px) {
         display: none;
         }
+
 `
 const Contact = styled.div`
 

@@ -7,7 +7,7 @@ import Project from './Project'
 export default function Projects() {
     
     const projectData = [
-        { id: "1", name: "Groww.com - clone", img: "groww-main1.png", gh:"https://github.com/kishankumar2021/project_grow", url:"https://groww-22kwt0qlk-kishanmasai2021-gmailcom.vercel.app/", url1:"https://groww.in/" },
+        { id: "1", name: "Groww.com - clone", img: "groww-main1.png", gh: "https://github.com/kishankumar2021/project_grow", url: "https://groww-22kwt0qlk-kishanmasai2021-gmailcom.vercel.app/", url1: "https://groww.in/" },
         { id: "2", name: "Netmeds - clone", img: "netmed1.png", gh:"https://github.com/kishankumar2021/Netmeds-clone", url:"https://netmeds-clone-master.vercel.app/", url1:"https://www.netmeds.com/" },
     ];
 
@@ -51,4 +51,9 @@ const ProjectsCont = styled.div`
         width: 100vw;
         padding-bottom: 3rem;
     }
+     /* @media (max-width: 400px) {
+        margin: auto;
+        width: 100vw;
+        padding-bottom: 3rem;
+    } */
 `
