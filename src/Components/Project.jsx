@@ -25,10 +25,10 @@ export default function Project({ data }) {
 
 const Cont = styled.div`
     padding-bottom: 1rem;
-    margin: 2rem;
-    border-radius: 0.3rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
     background-color: #fff;
-    width: 85%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -53,7 +53,7 @@ const ImgCont = styled.div`
     cursor: pointer;
     align-self: center;
     max-width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     img{
         width: 100%;
     }

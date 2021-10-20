@@ -20,11 +20,10 @@ export default function About() {
                 </Cont>
                 <AboutCont>
                     <Heading>About Me</Heading>
-                    <AboutPara>
-                        From designing components in Solidworks to building components in React, the journey has been great. <br />
-                        I was fascinated with the fact that how brand new products are being created with all the opensource technology available,
-                        and how it is transforming billions of lives within a very short time period.
-                        I wanted to be a part of this, hence I joined a coding bootcamp for the Full Stack Web Development course, and here I'm today.
+                    <AboutPara className={styles.about}>
+                        Seeking a challenging position to enhance my technical and management skills towards the growth of organization
+                        where I will work hard to be a conﬁdent
+                        individual with commitments to work and control over situation  andchanges.
                     </AboutPara>
                 </AboutCont>
             </ContBg>
