@@ -21,7 +21,7 @@ export default function About() {
                 <AboutCont>
                     <Heading>About Me</Heading>
                     <AboutPara className={styles.about}>
-                        Seeking a challenging position to enhance my technical and management skills towards the growth of organization
+                        Seeking a challenging position to enhance my technical and management skills towards the growth of organization <br />
                         where I will work hard to be a conﬁdent
                         individual with commitments to work and control over situation  andchanges.
                     </AboutPara>
