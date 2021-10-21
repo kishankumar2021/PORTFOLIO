@@ -15,15 +15,16 @@ export default function About() {
                     </Left>
                     <Right>
                         {/* <img src="dpkbg.png" alt="" /> */}
-                        <img src="kk.png" alt="" className={styles.pic} />
+                        <img src="kkk.jpeg" alt="" className={styles.pic} />
                     </Right>
                 </Cont>
                 <AboutCont>
                     <Heading>About Me</Heading>
                     <AboutPara className={styles.about}>
-                        Seeking a challenging position to enhance my technical and management skills <br /> <hr /> towards the growth of organization
-                        where I will work hard to be a conﬁdent <br /> <hr />
-                        individual with commitments to work and control over situation  andchanges.
+                        From designing components in Solidworks to building components in React, the journey has been great. <br />
+                        I was fascinated with the fact that how brand new products are being created with all the opensource technology available,
+                        and how it is transforming billions of lives within a very short time period.
+                        I wanted to be a part of this, hence I joined a coding bootcamp for the Full Stack Web Development course, and here I'm today.
                     </AboutPara>
                 </AboutCont>
             </ContBg>

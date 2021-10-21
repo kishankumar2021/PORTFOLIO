@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import styles from './Project.module.css'
 
 export default function Project({ data }) {
     
@@ -8,8 +9,22 @@ export default function Project({ data }) {
             {data.map((el) => (
             <Cont key={el.id}>
                 <ImgCont>
-                        <img src={el.img} alt="" />
+                    <img src={el.img} alt="" />
                 </ImgCont>
+                
+                
+                <Description>
+                   <div className={styles.des2}>
+                        {el.des2} { el.des1}<br />
+                        {el.a3} {el.l3} <br />
+                        {el.a1} {el.l2} <br />
+                        {el.a2} {el.l1}
+                   </div>
+                </Description>
+               
+                
+                    
+                    
                 <Name>
                     <div className="name"><a href={el.url} target="_blank" rel="noopener noreferrer">{el.name}</a></div>
                     <div className="btn">
@@ -22,6 +37,11 @@ export default function Project({ data }) {
         </>
     )
 }
+
+const Description = styled.div`
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+`
 
 const Cont = styled.div`
     padding-bottom: 1rem;

@@ -1,5 +1,14 @@
 .me{
+    display: flex;
     color:white;
     width: 190px;
     
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.mob{
+    color: white;
 }

@@ -19,8 +19,11 @@ export default function footer() {
                     <a href="https://github.com/kishankumar2021" target="_blank" rel="noreferrer noopener"><GitHubIcon className="icon" /></a>
                    
                 </IconsCont>
-                <a href="Mailto: kishaninfo2.0@gmail.com" className={styles.me}>kishaninfo2.0@gmail.com <br /> 9064101162</a>
+                <div className={styles.flex}>
+                <a href="Mailto: kishaninfo2.0@gmail.com" className={styles.me}>kishaninfo2.0@gmail.com </a>
+                <a href="" className={styles.mob}>9064101162</a>
                 <a href="https://goo.gl/maps/vxs9mEiSHpVC9biv5" target="_blank" rel="noreferrer noopener" className={styles.me}>Bihar, India </a>
+                </div>
                 <HrLine/>
                 <FooterLine>
                     <p>No © copyright issues | Designed & developed with <FavoriteIcon className="love"/> by Kishan. </p>                    
