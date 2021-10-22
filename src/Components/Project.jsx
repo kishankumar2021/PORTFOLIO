@@ -15,7 +15,7 @@ export default function Project({ data }) {
                 
                 <Description>
                    <div className={styles.des2}>
-                        {el.des2} { el.des1}<br />
+                        {el.des2} {el.des1}<br />
                         {el.a3} {el.l3} <br />
                         {el.a1} {el.l2} <br />
                         {el.a2} {el.l1}
@@ -77,6 +77,10 @@ const ImgCont = styled.div`
     img{
         width: 100%;
     }
+    /* @media (max-width: 300px) {
+        width: auto;
+        padding: 0em;
+    } */
 `
 const Name = styled.div`
     display: flex;
