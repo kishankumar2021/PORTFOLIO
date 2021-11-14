@@ -15,7 +15,7 @@ export default function About() {
                     </Left>
                     <Right>
                         {/* <img src="dpkbg.png" alt="" /> */}
-                        <img src="kkk.jpeg" alt="" className={styles.pic} />
+                        <img src="kk.png" alt="" className={styles.pic} />
                     </Right>
                 </Cont>
                 <AboutCont>
