@@ -1,0 +1,17 @@
+.me{
+    display: flex;
+    color:white;
+    width: 190px;
+    text-decoration: none;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.mob{
+    color: white;
+    text-decoration: none;
+
+}

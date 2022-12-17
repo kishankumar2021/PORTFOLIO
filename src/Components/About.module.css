@@ -1,0 +1,21 @@
+
+.pic {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 80%;
+    height: 65%;
+    margin-left: 6rem;
+    border-radius: 125px;
+    
+    /* background-color: rgb(116, 212, 180); */
+    }
+    /* .about{
+        text-align: center;
+        border-radius: 15px;
+    }
+    .about:hover{
+        background-color: #defce5;
+    } */
+    /* @media (max-width: 300px) {
+        width: 100%;
+    } */
